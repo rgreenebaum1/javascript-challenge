@@ -48,7 +48,7 @@ function handleClick() {
     }
 
 
-    // Build the Table with Filtered Data
+    // Build the Table with Filtered Data @!!!@@E@#$#@%R NO IDEA HOW I JUST GOT THIS WAHOOOOOOOOO !!! 
     BuildTable(filterData);
 
     console.log(date)
@@ -57,66 +57,6 @@ function handleClick() {
 d3.select("#filter-btn").on("click", handleClick);
 // Build Table with data.js 
 BuildTable(tableData);
-
-//     var date = d3.select("#datetime").node().value;
-//     console.log(date);
-
-
-
-
-   // d3.select("#datetime").node().value = "";
-
-    //     if (date !== "") {
-    //         filteredData = filteredData.filter(data => data.date == date);
-    //     }
-
-    //     else {
-    //         console.log("No input crieteria entered")
-    //     }
-    // };
-
-
-    // function BuildTable(tableData) {
-
-    //     var filteredData = [];
-
-    //     var button = d3.select("#button");
-
-    //     button.on("click", function () {
-
-
-    //         // var inputElement = d3.select("datetime");
-    //         // var inputValue = inputElement.property("value");
-
-    //         // console.log(inputValue);
-    //         // console.log(tableData);
-
-
-
-
-    //         // Object.entries(filters).forEach(([key, datetime]) => {
-    //         //     filteredData = filteredData.filter(row => row[key] == value);
-
-
-
-
-
-    //         console.log(filteredData);
-
-    //         // Create a new row for each set of filtered data
-    //         filteredData.forEach((sighting) => {
-    //             var row = tbody.append("tr");
-    //             Object.entries(sighting).forEach(([key, value]) => {
-    //                 var cell = row.append("td");
-    //                 cell.text(value);
-
-
-    //             });
-    //         });
-    //     });
-    // };
-
-   // d3.select(".filter-btn").on("click", handleSubmit);
 
 
 
